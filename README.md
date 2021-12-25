@@ -1,13 +1,13 @@
-## Ethereum-analysis
+<h1> Ethereum-analysis </h1>
 
-Assignment details:
+<h2> Assignment details: </h2>
 
 <p>The goal of this coursework is to apply the techniques covered in the first half of Big Data Processing to analyse the full set of transactions which have occurred on the Ethereum network; from the first transactions in August 2015 till June 2019. You will create several Map/Reduce or Spark programs to perform multiple types of computation. You will submit a report containing your results alongside an explanation of how they were obtained.</p>
 
 <p>There are many resources available for understanding Ethereum and blockchain technology; a good place to start are these two short videos taken from this <a href="https://blockgeeks.com/guides/ethereum/">article</a>, followed up by the <a href="https://github.com/ethereum/wiki/wiki/White-Paper">Ethereum White Paper</a> . There are also may sites dedicated to providing information about individual blocks, transactions and wallets, such as <a href="https://etherscan.io/">Etherscan</a> and <a href="https://ethplorer.io/">Ethplorer</a>.<br />
  <div class="mediaplugin mediaplugin_videojs d-block"><div style="max-width:400px;"><video data-setup-lazy="{&quot;techOrder&quot;: [&quot;youtube&quot;], &quot;sources&quot;: [{&quot;type&quot;: &quot;video/youtube&quot;, &quot;src&quot;:&quot;https://youtu.be/IsXvoYeJxKA&quot;}], &quot;language&quot;: &quot;en&quot;, &quot;fluid&quot;: true}" id="id_videojs_61c79706029c7_1" class="video-js" preload="auto" controls="true" title="[1]"><a class="mediafallbacklink" href="https://youtu.be/IsXvoYeJxKA">[1]</a></video></div></div> <div class="mediaplugin mediaplugin_videojs d-block"><div style="max-width:400px;"><video data-setup-lazy="{&quot;techOrder&quot;: [&quot;youtube&quot;], &quot;sources&quot;: [{&quot;type&quot;: &quot;video/youtube&quot;, &quot;src&quot;:&quot;https://youtu.be/UQDQ27YluZI&quot;}], &quot;language&quot;: &quot;en&quot;, &quot;fluid&quot;: true}" id="id_videojs_61c7970602dbb_2" class="video-js" preload="auto" controls="true" title="[2]"><a class="mediafallbacklink" href="https://youtu.be/UQDQ27YluZI">[2]</a></video></div></div></p>
 
-<h2>Dataset overview</h2>
+<h3>Dataset overview</h3>
 
 <p>Ethereum is a blockchain based distributed computing platform where users may exchange currency (Ether), provide or purchase services (smart contracts), mint their own coinage (tokens), as well as other applications. The Ethereum network is fully decentralised, managed by public-key cryptography, peer-to-peer networking, and proof-of-work to process/verify transactions.</p>
 
@@ -60,7 +60,7 @@ Assignment details:
 |4776218|0x1689f0d2ea89886...|0xea674fdde714fd9...|1767371428423280|25953|  8000029| 7415731|1513937802|              146|
 </code></pre>
 
-<h2>Dataset Schema -  transactions</h2>
+<h3>Dataset Schema -  transactions</h3>
 
 <p><strong>block_number</strong>: Block number where this transaction was in</p>
 
@@ -136,7 +136,7 @@ Assignment details:
 |0xdb98e880a574766...|   false|    false|     8380961|2019-08-19 13:01:...|
 </code></pre>
 
-<h2> Dataset Schema - scams.json</h2>
+<h3> Dataset Schema - scams.json</h3>
 
 <p><strong>id</strong>: Unique ID for the reported scam</p>
 
@@ -185,7 +185,7 @@ Assignment details:
 
 <hr />
 
-<h1>Assignment</h1>
+<h2>Assignment</h2>
 
 <p>Write a set of Map/Reduce (or Spark) jobs that process the given input and generate the data required to answer the following questions:</p>
 
@@ -257,5 +257,3 @@ the trader’s market position" Unregulated exchanges use these to fake up to 70
 </ul>
 
 <p>For generating the plots you can use any visualisation toolkit; Python's matplotlib, R, gnuplot, Matlab, or excel.</p>
-
-final grade: 100%
